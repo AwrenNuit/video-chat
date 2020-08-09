@@ -1,4 +1,5 @@
 body {
+  background-color: #36394b;
   height: 100vh;
   position: relative;
 }
@@ -21,7 +22,6 @@ video {
 
 /* CONTROLS */
 #controls-wrapper {
-  background-color: blue;
   bottom: 40px;
   left: 50%;
   position: absolute;
@@ -29,10 +29,11 @@ video {
 }
 
 #controls {
-  background-color: red;
+  background-color: #0000009a;
+  border-radius: 25% / 50%;
   padding: 1rem;
   text-align: center;
-  width: 300px;
+  width: 350px;
 }
 
 button {
@@ -41,6 +42,7 @@ button {
   box-shadow: inset 5px 5px 10px #fff, inset -5px -5px 10px #666;
   cursor: pointer;
   font-size: 1.2rem;
+  margin: 0 1rem;
   padding: 0.5rem 0;
   transition: background-color 0.3s;
   width: 130px;
@@ -51,6 +53,6 @@ button:hover {
 }
 
 button:active {
-  box-shadow: inset 5px 5px 10px #aaa, inset -5px -5px 10px #fff;
+  box-shadow: inset 5px 5px 10px #aaa, inset -5px -5px 10px #ddd;
 }
 /* END CONTROLS */
