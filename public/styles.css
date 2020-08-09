@@ -1,5 +1,7 @@
 video {
+  border: 8px ridge #000;
   height: 100%;
+  margin: 1rem;
   object-fit: cover;
   width: 100%;
 }
